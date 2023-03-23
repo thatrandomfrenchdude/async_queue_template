@@ -33,7 +33,6 @@ class App:
         print(f'Task {count} starting')
         await asyncio.sleep(5)  # sleep for 5 seconds
         print(f'Task {count} ending')
-        # return (count)
 
 
 async def main() -> None:
